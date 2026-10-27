@@ -1,0 +1,772 @@
+{
+  "courses": [
+    {
+      "id": "design",
+      "title": "UI Design: From Idea to Interface",
+      "category": "Design",
+      "instructorId": "maya",
+      "price": 49,
+      "level": "Beginner",
+      "rating": 4.9,
+      "students": 1248,
+      "color": "peach",
+      "art": "design",
+      "description": "Build beautiful, useful interfaces with a process you can repeat.",
+      "language": "English",
+      "published": true,
+      "duration": 50,
+      "outcomes": [
+        "Understand the problem",
+        "Build a visual hierarchy",
+        "Design accessible components",
+        "Prototype, test, iterate"
+      ],
+      "requirements": [
+        "Curiosity and a notebook",
+        "A browser and time to practice"
+      ],
+      "lessons": [
+        {
+          "id": "design-1",
+          "title": "Understand the problem",
+          "section": "Research",
+          "minutes": 8,
+          "content": "Before opening a design tool, identify who you are designing for and the task they need to complete. Write a problem statement with a user, a need, and a reason. Interview questions should invite stories rather than suggest an answer.",
+          "exercise": "Write a problem statement for a student trying to find the right course.",
+          "videoUrl": ""
+        },
+        {
+          "id": "design-2",
+          "title": "Build a visual hierarchy",
+          "section": "Foundations",
+          "minutes": 11,
+          "content": "Hierarchy tells people what to read first. Use scale, weight, spacing and contrast deliberately. Start with one primary action per section. Group related information with proximity and give separate groups breathing room.",
+          "exercise": "Sketch a course card using three type sizes and one accent color.",
+          "videoUrl": ""
+        },
+        {
+          "id": "design-3",
+          "title": "Design accessible components",
+          "section": "Components",
+          "minutes": 14,
+          "content": "A reusable button needs default, hover, focus, disabled, and loading states. Visible labels and keyboard focus help everyone navigate. Do not rely only on color to communicate an error; add concise text.",
+          "exercise": "List the states and labels for a course enrollment form.",
+          "videoUrl": ""
+        },
+        {
+          "id": "design-4",
+          "title": "Prototype, test, iterate",
+          "section": "Practice",
+          "minutes": 17,
+          "content": "Test a small realistic task with a prototype. Observe where a participant hesitates before offering help. Record evidence separately from your interpretation. Prioritize changes by frequency and impact, then test again.",
+          "exercise": "Ask a friend to locate a free beginner course in your sketch.",
+          "videoUrl": ""
+        }
+      ],
+      "quiz": {
+        "id": "design",
+        "title": "UI Design: From Idea to Interface \u00b7 Knowledge check",
+        "passScore": 75,
+        "questions": [
+          {
+            "id": "design-q1",
+            "text": "What should you define before visual design?",
+            "options": [
+              "A user problem",
+              "A gradient palette",
+              "The final icon set",
+              "Animation speed"
+            ],
+            "correct": 0,
+            "explanation": "Start with a user, their need, and the reason it matters."
+          },
+          {
+            "id": "design-q2",
+            "text": "Which most clearly improves hierarchy?",
+            "options": [
+              "Make all text bold",
+              "Use purposeful scale and spacing",
+              "Use ten colors",
+              "Hide the main action"
+            ],
+            "correct": 1,
+            "explanation": "Scale and spacing establish reading order."
+          },
+          {
+            "id": "design-q3",
+            "text": "What should accompany an error color?",
+            "options": [
+              "Nothing",
+              "A sound only",
+              "A clear text explanation",
+              "An unlabeled icon"
+            ],
+            "correct": 2,
+            "explanation": "Text ensures the error does not depend on color perception."
+          },
+          {
+            "id": "design-q4",
+            "text": "A usability test is most useful when you\u2026",
+            "options": [
+              "Explain every click",
+              "Watch a realistic task",
+              "Ask if the screen is pretty",
+              "Only count page views"
+            ],
+            "correct": 1,
+            "explanation": "Observe real tasks to identify friction."
+          }
+        ]
+      }
+    },
+    {
+      "id": "react",
+      "title": "Modern React, One Component at a Time",
+      "category": "Development",
+      "instructorId": "leo",
+      "price": 0,
+      "level": "Beginner",
+      "rating": 4.8,
+      "students": 986,
+      "color": "blue",
+      "art": "code",
+      "description": "Build a strong foundation in components, state and accessible interfaces.",
+      "language": "English",
+      "published": true,
+      "duration": 50,
+      "outcomes": [
+        "Think in components",
+        "Props and local state",
+        "Render lists and forms",
+        "Effects and cleanup"
+      ],
+      "requirements": [
+        "Curiosity and a notebook",
+        "A browser and time to practice"
+      ],
+      "lessons": [
+        {
+          "id": "react-1",
+          "title": "Think in components",
+          "section": "Foundations",
+          "minutes": 8,
+          "content": "A component describes part of a user interface. Start by splitting a page into responsibilities. A CourseCard can receive a title and price as props. Keeping data flow explicit makes components easier to reuse and test.",
+          "exercise": "Break the Proerply dashboard into five components.",
+          "videoUrl": ""
+        },
+        {
+          "id": "react-2",
+          "title": "Props and local state",
+          "section": "State",
+          "minutes": 11,
+          "content": "Props are inputs from a parent; local state is memory owned by a component. Use a state setter to update it. Derive values such as item counts from existing data instead of storing duplicate state.",
+          "exercise": "Build a counter and derive a message from its count.",
+          "videoUrl": ""
+        },
+        {
+          "id": "react-3",
+          "title": "Render lists and forms",
+          "section": "Interactions",
+          "minutes": 14,
+          "content": "Use a stable item identifier as a key when rendering a list. Form controls need labels. Validate both client-side for feedback and server-side for trust. Keep pending and error states visible.",
+          "exercise": "Create a filterable list with a labeled search input.",
+          "videoUrl": ""
+        },
+        {
+          "id": "react-4",
+          "title": "Effects and cleanup",
+          "section": "Practice",
+          "minutes": 17,
+          "content": "An effect synchronizes with a system outside React, such as a timer or browser event. Return cleanup to remove subscriptions. Compute derived values while rendering when no external synchronization is needed.",
+          "exercise": "Create a timer with cleanup when the component unmounts.",
+          "videoUrl": ""
+        }
+      ],
+      "quiz": {
+        "id": "react",
+        "title": "Modern React, One Component at a Time \u00b7 Knowledge check",
+        "passScore": 75,
+        "questions": [
+          {
+            "id": "react-q1",
+            "text": "What are props?",
+            "options": [
+              "Inputs from a parent",
+              "A database",
+              "Global mutable variables",
+              "CSS selectors"
+            ],
+            "correct": 0,
+            "explanation": "Props carry explicit inputs into a component."
+          },
+          {
+            "id": "react-q2",
+            "text": "A list key should be\u2026",
+            "options": [
+              "Random on each render",
+              "Stable for each item",
+              "The same for every row",
+              "Always the array length"
+            ],
+            "correct": 1,
+            "explanation": "Stable keys preserve item identity."
+          },
+          {
+            "id": "react-q3",
+            "text": "What belongs in effect cleanup?",
+            "options": [
+              "New page titles",
+              "A state initializer",
+              "Removing a subscription",
+              "Returning JSX"
+            ],
+            "correct": 2,
+            "explanation": "Cleanup disconnects subscriptions and timers."
+          },
+          {
+            "id": "react-q4",
+            "text": "Where must untrusted input be validated?",
+            "options": [
+              "Only the browser",
+              "Only CSS",
+              "Nowhere",
+              "On the server"
+            ],
+            "correct": 3,
+            "explanation": "Client checks improve UX; server checks enforce trust."
+          }
+        ]
+      }
+    },
+    {
+      "id": "data",
+      "title": "Tell a Better Story with Data",
+      "category": "Data Science",
+      "instructorId": "sara",
+      "price": 39,
+      "level": "Intermediate",
+      "rating": 4.9,
+      "students": 754,
+      "color": "mint",
+      "art": "data",
+      "description": "Turn a spreadsheet into a clear story and a better decision.",
+      "language": "English",
+      "published": true,
+      "duration": 50,
+      "outcomes": [
+        "Start with a question",
+        "Clean with care",
+        "Choose the right chart",
+        "Communicate uncertainty"
+      ],
+      "requirements": [
+        "Curiosity and a notebook",
+        "A browser and time to practice"
+      ],
+      "lessons": [
+        {
+          "id": "data-1",
+          "title": "Start with a question",
+          "section": "Foundations",
+          "minutes": 8,
+          "content": "A useful analysis starts with a decision and a question. Define the observation unit and the time period. Decide how missing values and duplicates affect your answer before drawing a chart.",
+          "exercise": "Write an answerable question about course completion.",
+          "videoUrl": ""
+        },
+        {
+          "id": "data-2",
+          "title": "Clean with care",
+          "section": "Preparation",
+          "minutes": 11,
+          "content": "Inspect types, ranges, and missingness. A blank value is not always zero. Preserve the original dataset and record each transformation so another person can reproduce the analysis.",
+          "exercise": "Describe how you would handle missing study times.",
+          "videoUrl": ""
+        },
+        {
+          "id": "data-3",
+          "title": "Choose the right chart",
+          "section": "Visualization",
+          "minutes": 14,
+          "content": "Use bars for comparing categories and lines for change over time. Label units and choose scales that represent differences honestly. A chart title can state the question or the main finding.",
+          "exercise": "Sketch weekly lessons completed as a line chart.",
+          "videoUrl": ""
+        },
+        {
+          "id": "data-4",
+          "title": "Communicate uncertainty",
+          "section": "Practice",
+          "minutes": 17,
+          "content": "An observed association is not necessarily causal. Note sample size, selection, and possible confounders. Present the most useful result with context, then propose the next measurement.",
+          "exercise": "Write a short conclusion that includes one limitation.",
+          "videoUrl": ""
+        }
+      ],
+      "quiz": {
+        "id": "data",
+        "title": "Tell a Better Story with Data \u00b7 Knowledge check",
+        "passScore": 75,
+        "questions": [
+          {
+            "id": "data-q1",
+            "text": "What comes first in an analysis?",
+            "options": [
+              "A clear question",
+              "A 3D chart",
+              "A color palette",
+              "A conclusion"
+            ],
+            "correct": 0,
+            "explanation": "The question guides the data and method."
+          },
+          {
+            "id": "data-q2",
+            "text": "A missing value is\u2026",
+            "options": [
+              "Always zero",
+              "Not automatically zero",
+              "Always an error",
+              "Always the median"
+            ],
+            "correct": 1,
+            "explanation": "Its meaning depends on collection and context."
+          },
+          {
+            "id": "data-q3",
+            "text": "Which chart suits change over time?",
+            "options": [
+              "A word cloud",
+              "A pie chart",
+              "A line chart",
+              "A logo"
+            ],
+            "correct": 2,
+            "explanation": "Lines show sequential trends clearly."
+          },
+          {
+            "id": "data-q4",
+            "text": "Correlation alone establishes causation.",
+            "options": ["True", "False"],
+            "correct": 1,
+            "explanation": "Confounding and study design matter."
+          }
+        ]
+      }
+    },
+    {
+      "id": "photo",
+      "title": "Everyday Photography, Extraordinary Stories",
+      "category": "Photography",
+      "instructorId": "sara",
+      "price": 29,
+      "level": "Beginner",
+      "rating": 4.7,
+      "students": 642,
+      "color": "lavender",
+      "art": "photo",
+      "description": "Find better light, frame intentionally, and make everyday stories shine.",
+      "language": "English",
+      "published": true,
+      "duration": 50,
+      "outcomes": [
+        "Read the light",
+        "Compose with intention",
+        "Control exposure",
+        "Edit a visual story"
+      ],
+      "requirements": [
+        "Curiosity and a notebook",
+        "A browser and time to practice"
+      ],
+      "lessons": [
+        {
+          "id": "photo-1",
+          "title": "Read the light",
+          "section": "Foundations",
+          "minutes": 8,
+          "content": "Notice the direction, softness, and color of light. A large window can be a soft light source. Move your subject relative to the light before changing camera settings.",
+          "exercise": "Photograph one object near a window at two angles.",
+          "videoUrl": ""
+        },
+        {
+          "id": "photo-2",
+          "title": "Compose with intention",
+          "section": "Composition",
+          "minutes": 11,
+          "content": "Use edges and lines to direct attention. Check the background for distracting objects. Try a different camera height and distance rather than taking every photograph at eye level.",
+          "exercise": "Make three compositions of the same subject.",
+          "videoUrl": ""
+        },
+        {
+          "id": "photo-3",
+          "title": "Control exposure",
+          "section": "Technique",
+          "minutes": 14,
+          "content": "Aperture, shutter time and sensitivity influence exposure. Fast shutter times reduce motion blur; longer exposures record movement. Change one variable at a time when learning.",
+          "exercise": "Compare a moving subject with a fast and slow shutter.",
+          "videoUrl": ""
+        },
+        {
+          "id": "photo-4",
+          "title": "Edit a visual story",
+          "section": "Practice",
+          "minutes": 17,
+          "content": "Select images that serve a coherent story. Adjust exposure and color gently and keep the original files. A small sequence with a clear beginning, detail and conclusion is often stronger than many similar images.",
+          "exercise": "Choose three photographs to describe your study space.",
+          "videoUrl": ""
+        }
+      ],
+      "quiz": {
+        "id": "photo",
+        "title": "Everyday Photography, Extraordinary Stories \u00b7 Knowledge check",
+        "passScore": 75,
+        "questions": [
+          {
+            "id": "photo-q1",
+            "text": "Soft light often comes from\u2026",
+            "options": [
+              "A larger apparent source",
+              "Any red light",
+              "A smaller source only",
+              "No source"
+            ],
+            "correct": 0,
+            "explanation": "A larger apparent source produces gentler shadow transitions."
+          },
+          {
+            "id": "photo-q2",
+            "text": "What can improve a distracting composition?",
+            "options": [
+              "Ignore the background",
+              "Change camera position",
+              "Use every filter",
+              "Always zoom digitally"
+            ],
+            "correct": 1,
+            "explanation": "Moving can remove distracting overlaps."
+          },
+          {
+            "id": "photo-q3",
+            "text": "A faster shutter can reduce\u2026",
+            "options": [
+              "File size",
+              "Color depth",
+              "Motion blur",
+              "Perspective"
+            ],
+            "correct": 2,
+            "explanation": "Shorter exposure captures less movement."
+          },
+          {
+            "id": "photo-q4",
+            "text": "When editing, preserve\u2026",
+            "options": [
+              "Only thumbnails",
+              "The original files",
+              "Only a screenshot",
+              "Nothing"
+            ],
+            "correct": 1,
+            "explanation": "Originals allow reversible edits."
+          }
+        ]
+      }
+    },
+    {
+      "id": "brand",
+      "title": "Build a Brand People Remember",
+      "category": "Business",
+      "instructorId": "maya",
+      "price": 59,
+      "level": "Intermediate",
+      "rating": 4.8,
+      "students": 819,
+      "color": "rose",
+      "art": "brand",
+      "description": "Connect strategy, voice and a consistent visual identity.",
+      "language": "English",
+      "published": true,
+      "duration": 50,
+      "outcomes": [
+        "Know your audience",
+        "Define a point of view",
+        "Create a consistent system",
+        "Make the experience match"
+      ],
+      "requirements": [
+        "Curiosity and a notebook",
+        "A browser and time to practice"
+      ],
+      "lessons": [
+        {
+          "id": "brand-1",
+          "title": "Know your audience",
+          "section": "Strategy",
+          "minutes": 8,
+          "content": "A brand is a pattern of expectations and experiences. Define the audience and what they value. Study alternatives to understand where your offer can be meaningfully different.",
+          "exercise": "Write one audience statement.",
+          "videoUrl": ""
+        },
+        {
+          "id": "brand-2",
+          "title": "Define a point of view",
+          "section": "Positioning",
+          "minutes": 11,
+          "content": "A positioning statement connects an audience, a problem, a benefit and evidence. Avoid generic claims that every competitor can make. A specific promise is easier to communicate and deliver.",
+          "exercise": "Draft a positioning statement for a learning studio.",
+          "videoUrl": ""
+        },
+        {
+          "id": "brand-3",
+          "title": "Create a consistent system",
+          "section": "Identity",
+          "minutes": 14,
+          "content": "Choose type, color and imagery that support the intended character. Record repeatable rules in a small guide. Consistency helps recognition, but each channel may need a different composition.",
+          "exercise": "Write three visual guidelines.",
+          "videoUrl": ""
+        },
+        {
+          "id": "brand-4",
+          "title": "Make the experience match",
+          "section": "Practice",
+          "minutes": 17,
+          "content": "Promises only work when the product and support experience fulfill them. Review a complete customer journey and identify moments where your message and actual experience diverge.",
+          "exercise": "Audit a welcome message and its first user action.",
+          "videoUrl": ""
+        }
+      ],
+      "quiz": {
+        "id": "brand",
+        "title": "Build a Brand People Remember \u00b7 Knowledge check",
+        "passScore": 75,
+        "questions": [
+          {
+            "id": "brand-q1",
+            "text": "A useful positioning statement includes\u2026",
+            "options": [
+              "A specific audience",
+              "Only a logo",
+              "A random slogan",
+              "Every possible benefit"
+            ],
+            "correct": 0,
+            "explanation": "Positioning starts with a defined audience and need."
+          },
+          {
+            "id": "brand-q2",
+            "text": "Consistency helps\u2026",
+            "options": [
+              "Hide a weak offer",
+              "Recognition",
+              "Replace research",
+              "Eliminate all variation"
+            ],
+            "correct": 1,
+            "explanation": "Repeated patterns improve recognition."
+          },
+          {
+            "id": "brand-q3",
+            "text": "A brand promise should be\u2026",
+            "options": [
+              "Impossible",
+              "Vague",
+              "Supported by experience",
+              "Secret"
+            ],
+            "correct": 2,
+            "explanation": "The experience should deliver on the promise."
+          },
+          {
+            "id": "brand-q4",
+            "text": "A brand guide contains\u2026",
+            "options": [
+              "Only financial accounts",
+              "Repeatable identity rules",
+              "Passwords",
+              "Private customer data"
+            ],
+            "correct": 1,
+            "explanation": "Guidelines make consistent application easier."
+          }
+        ]
+      }
+    },
+    {
+      "id": "python",
+      "title": "Python for Curious Minds",
+      "category": "Development",
+      "instructorId": "leo",
+      "price": 0,
+      "level": "Beginner",
+      "rating": 4.9,
+      "students": 1562,
+      "color": "yellow",
+      "art": "python",
+      "description": "Practice small programs and solve useful everyday problems.",
+      "language": "English",
+      "published": true,
+      "duration": 50,
+      "outcomes": [
+        "Values and variables",
+        "Decisions and repetition",
+        "Small reusable functions",
+        "Handle errors and files"
+      ],
+      "requirements": [
+        "Curiosity and a notebook",
+        "A browser and time to practice"
+      ],
+      "lessons": [
+        {
+          "id": "python-1",
+          "title": "Values and variables",
+          "section": "Foundations",
+          "minutes": 8,
+          "content": "Variables name values. Python has types such as integers, strings, lists and dictionaries. Use clear names that describe purpose and inspect unexpected values before adding complexity.",
+          "exercise": "Create variables for a course title and lesson count.",
+          "videoUrl": ""
+        },
+        {
+          "id": "python-2",
+          "title": "Decisions and repetition",
+          "section": "Control flow",
+          "minutes": 11,
+          "content": "Use if statements to choose behavior and for loops to iterate over collections. Watch boundary conditions such as an empty list. Keep one loop focused on a clear task.",
+          "exercise": "Count completed lessons in a list of booleans.",
+          "videoUrl": ""
+        },
+        {
+          "id": "python-3",
+          "title": "Small reusable functions",
+          "section": "Functions",
+          "minutes": 14,
+          "content": "A function packages a useful behavior with explicit inputs and a result. Avoid hidden global state. Small functions with focused responsibilities are easier to test and reuse.",
+          "exercise": "Write a function that computes a completion percentage.",
+          "videoUrl": ""
+        },
+        {
+          "id": "python-4",
+          "title": "Handle errors and files",
+          "section": "Practice",
+          "minutes": 17,
+          "content": "Use a context manager when opening files. Catch specific exceptions when you can recover meaningfully. Report errors clearly instead of silently discarding them. Never execute untrusted code from input.",
+          "exercise": "Describe how your program handles a missing input file.",
+          "videoUrl": ""
+        }
+      ],
+      "quiz": {
+        "id": "python",
+        "title": "Python for Curious Minds \u00b7 Knowledge check",
+        "passScore": 75,
+        "questions": [
+          {
+            "id": "python-q1",
+            "text": "A dictionary maps\u2026",
+            "options": [
+              "Keys to values",
+              "Pixels to colors only",
+              "Only numbers",
+              "Nothing"
+            ],
+            "correct": 0,
+            "explanation": "Dictionaries associate keys with values."
+          },
+          {
+            "id": "python-q2",
+            "text": "A for loop commonly\u2026",
+            "options": [
+              "Creates a database",
+              "Iterates over a collection",
+              "Encrypts passwords",
+              "Starts a server"
+            ],
+            "correct": 1,
+            "explanation": "It repeats work for each item."
+          },
+          {
+            "id": "python-q3",
+            "text": "Good functions have\u2026",
+            "options": [
+              "Many hidden side effects",
+              "No names",
+              "Clear inputs and purpose",
+              "Unlimited length"
+            ],
+            "correct": 2,
+            "explanation": "Clear boundaries improve reuse and tests."
+          },
+          {
+            "id": "python-q4",
+            "text": "For file access, prefer\u2026",
+            "options": [
+              "An unmanaged open file",
+              "A context manager",
+              "Ignoring errors",
+              "Executing file contents"
+            ],
+            "correct": 1,
+            "explanation": "Context managers close resources reliably."
+          }
+        ]
+      }
+    }
+  ],
+  "instructors": [
+    {
+      "id": "maya",
+      "userId": "teacher",
+      "name": "Maya Chen",
+      "title": "Product designer & educator",
+      "bio": "I help curious people turn complex ideas into useful, thoughtful digital experiences. Learn by making, testing, and improving.",
+      "color": "peach",
+      "initials": "MC"
+    },
+    {
+      "id": "leo",
+      "userId": "teacher2",
+      "name": "Leo Williams",
+      "title": "Senior software engineer",
+      "bio": "Practical software lessons, small experiments, and an emphasis on readable code.",
+      "color": "blue",
+      "initials": "LW"
+    },
+    {
+      "id": "sara",
+      "userId": "teacher3",
+      "name": "Sara Patel",
+      "title": "Data storyteller & creator",
+      "bio": "Make sense of information and communicate it with confidence.",
+      "color": "mint",
+      "initials": "SP"
+    }
+  ],
+  "categories": [
+    "Business",
+    "Data Science",
+    "Design",
+    "Development",
+    "Photography"
+  ],
+  "badges": [
+    {
+      "id": "first-step",
+      "title": "First step",
+      "description": "Complete your first lesson.",
+      "kind": "lesson",
+      "threshold": 1
+    },
+    {
+      "id": "curious-mind",
+      "title": "Curious mind",
+      "description": "Pass a course assessment.",
+      "kind": "quiz",
+      "threshold": 75
+    },
+    {
+      "id": "graduate",
+      "title": "Course graduate",
+      "description": "Complete every lesson and pass the assessment.",
+      "kind": "course",
+      "threshold": 1
+    }
+  ]
+}

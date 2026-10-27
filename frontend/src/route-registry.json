@@ -1,0 +1,415 @@
+[
+  {
+    "number": 1,
+    "id": "01_Onboarding",
+    "title": "Welcome",
+    "path": "/onboarding/1",
+    "component": "Onboarding",
+    "variant": "1",
+    "access": "public",
+    "layout": "auth"
+  },
+  {
+    "number": 2,
+    "id": "02_Onboarding",
+    "title": "Practice",
+    "path": "/onboarding/2",
+    "component": "Onboarding",
+    "variant": "2",
+    "access": "public",
+    "layout": "auth"
+  },
+  {
+    "number": 3,
+    "id": "03_Onboarding",
+    "title": "Community",
+    "path": "/onboarding/3",
+    "component": "Onboarding",
+    "variant": "3",
+    "access": "public",
+    "layout": "auth"
+  },
+  {
+    "number": 4,
+    "id": "04_Onboarding",
+    "title": "Progress",
+    "path": "/onboarding/4",
+    "component": "Onboarding",
+    "variant": "4",
+    "access": "public",
+    "layout": "auth"
+  },
+  {
+    "number": 5,
+    "id": "05_Login",
+    "title": "Login",
+    "path": "/login",
+    "component": "AuthPage",
+    "variant": "login",
+    "access": "public",
+    "layout": "auth"
+  },
+  {
+    "number": 6,
+    "id": "06_Sign up",
+    "title": "Sign up",
+    "path": "/signup",
+    "component": "AuthPage",
+    "variant": "signup",
+    "access": "public",
+    "layout": "auth"
+  },
+  {
+    "number": 7,
+    "id": "07_Login Forgot Password",
+    "title": "Password recovery",
+    "path": "/forgot-password",
+    "component": "ResetFlow",
+    "variant": "forgot",
+    "access": "public",
+    "layout": "auth"
+  },
+  {
+    "number": 8,
+    "id": "08_Login_Forgot Password_Enter code",
+    "title": "Verify code",
+    "path": "/verify-code",
+    "component": "ResetFlow",
+    "variant": "verify",
+    "access": "public",
+    "layout": "auth"
+  },
+  {
+    "number": 9,
+    "id": "09_Login_Create new password",
+    "title": "Reset password",
+    "path": "/reset-password",
+    "component": "ResetFlow",
+    "variant": "reset",
+    "access": "public",
+    "layout": "auth"
+  },
+  {
+    "number": 10,
+    "id": "10_Enable Notification",
+    "title": "Notifications",
+    "path": "/notifications",
+    "component": "Notifications",
+    "access": "user",
+    "layout": "app"
+  },
+  {
+    "number": 11,
+    "id": "11_Home",
+    "title": "Overview",
+    "path": "/home",
+    "component": "Home",
+    "access": "user",
+    "layout": "app",
+    "nav": true
+  },
+  {
+    "number": 12,
+    "id": "12_Explore",
+    "title": "Explore courses",
+    "path": "/explore",
+    "component": "Explore",
+    "variant": "all",
+    "access": "public",
+    "layout": "app",
+    "nav": true
+  },
+  {
+    "number": 13,
+    "id": "13_Search",
+    "title": "Search",
+    "path": "/search",
+    "component": "SearchPage",
+    "variant": "search",
+    "access": "public",
+    "layout": "app"
+  },
+  {
+    "number": 14,
+    "id": "14_Filter",
+    "title": "Filters",
+    "path": "/filters",
+    "component": "SearchPage",
+    "variant": "filters",
+    "access": "public",
+    "layout": "app"
+  },
+  {
+    "number": 15,
+    "id": "15_Result",
+    "title": "Search results",
+    "path": "/results",
+    "component": "SearchPage",
+    "variant": "results",
+    "access": "public",
+    "layout": "app"
+  },
+  {
+    "number": 16,
+    "id": "16_Result_Details",
+    "title": "Course details",
+    "path": "/courses/:courseId",
+    "component": "CourseDetails",
+    "access": "public",
+    "layout": "app",
+    "example": "/courses/design"
+  },
+  {
+    "number": 17,
+    "id": "17_Pricing Plan",
+    "title": "Learning options",
+    "path": "/pricing",
+    "component": "Pricing",
+    "access": "public",
+    "layout": "app"
+  },
+  {
+    "number": 18,
+    "id": "18_Start Course",
+    "title": "Checkout",
+    "path": "/checkout/:courseId",
+    "component": "Checkout",
+    "access": "user",
+    "layout": "app",
+    "example": "/checkout/design"
+  },
+  {
+    "number": 19,
+    "id": "19_Payment Success",
+    "title": "Enrollment confirmation",
+    "path": "/payment/success",
+    "component": "PaymentSuccess",
+    "access": "user",
+    "layout": "app"
+  },
+  {
+    "number": 20,
+    "id": "20_Add new card",
+    "title": "Payment method",
+    "path": "/payment/add-card",
+    "component": "AddCard",
+    "access": "user",
+    "layout": "app"
+  },
+  {
+    "number": 21,
+    "id": "21_Account_instructor",
+    "title": "Instructor profile",
+    "path": "/instructors/:instructorId",
+    "component": "InstructorProfile",
+    "access": "public",
+    "layout": "app",
+    "example": "/instructors/maya"
+  },
+  {
+    "number": 22,
+    "id": "22_BG",
+    "title": "Shared brand background",
+    "path": "/brand",
+    "component": "BackgroundPage",
+    "access": "public",
+    "layout": "app",
+    "assetComponent": "BrandBackground",
+    "note": "Shared decorative layout component; /brand is an inspectable preview alias."
+  },
+  {
+    "number": 23,
+    "id": "23_Explore",
+    "title": "Learning paths",
+    "path": "/explore/paths",
+    "component": "Explore",
+    "variant": "paths",
+    "access": "public",
+    "layout": "app"
+  },
+  {
+    "number": 24,
+    "id": "24_Explore",
+    "title": "Meet instructors",
+    "path": "/explore/instructors",
+    "component": "Explore",
+    "variant": "instructors",
+    "access": "public",
+    "layout": "app"
+  },
+  {
+    "number": 25,
+    "id": "25_Ongoing Course Lesson",
+    "title": "Lesson player",
+    "path": "/learning/:courseId/lesson/:lessonId",
+    "component": "LessonPage",
+    "variant": "lesson",
+    "access": "user",
+    "layout": "app",
+    "example": "/learning/react/lesson/react-1"
+  },
+  {
+    "number": 26,
+    "id": "26_video play list",
+    "title": "Course playlist",
+    "path": "/learning/:courseId/playlist",
+    "component": "LessonPage",
+    "variant": "playlist",
+    "access": "user",
+    "layout": "app",
+    "example": "/learning/react/playlist"
+  },
+  {
+    "number": 27,
+    "id": "27_Ongoing Course Lesson",
+    "title": "Lesson reading & exercise",
+    "path": "/learning/:courseId/lesson/:lessonId/notes",
+    "component": "LessonPage",
+    "variant": "notes",
+    "access": "user",
+    "layout": "app",
+    "example": "/learning/react/lesson/react-1/notes"
+  },
+  {
+    "number": 28,
+    "id": "28_Lesson Complete",
+    "title": "Lesson complete",
+    "path": "/lesson-complete",
+    "component": "LessonComplete",
+    "access": "user",
+    "layout": "app"
+  },
+  {
+    "number": 29,
+    "id": "29_Test",
+    "title": "Assessment",
+    "path": "/quiz/:quizId",
+    "component": "QuizPage",
+    "variant": "quiz",
+    "access": "user",
+    "layout": "app",
+    "example": "/quiz/react"
+  },
+  {
+    "number": 30,
+    "id": "30_wrong Test",
+    "title": "Assessment results & review",
+    "path": "/quiz/:quizId/results",
+    "component": "QuizPage",
+    "variant": "results",
+    "access": "user",
+    "layout": "app",
+    "example": "/quiz/react/results"
+  },
+  {
+    "number": 31,
+    "id": "31_Achieved Badge",
+    "title": "Earned badge",
+    "path": "/achievements/:badgeId",
+    "component": "Achievements",
+    "access": "user",
+    "layout": "app",
+    "example": "/achievements/first-step"
+  },
+  {
+    "number": 32,
+    "id": "32_Certificate",
+    "title": "Course certificate",
+    "path": "/certificates/:certificateId",
+    "component": "CertificatePage",
+    "access": "user",
+    "layout": "app",
+    "example": "/certificates/cert-react"
+  },
+  {
+    "number": 33,
+    "id": "33_Course Share",
+    "title": "Share a course",
+    "path": "/share/:courseId",
+    "component": "ShareCourse",
+    "access": "public",
+    "layout": "app",
+    "example": "/share/react"
+  },
+  {
+    "number": 34,
+    "id": "34_remider",
+    "title": "Study reminders",
+    "path": "/reminders",
+    "component": "Reminders",
+    "access": "user",
+    "layout": "app",
+    "nav": true
+  },
+  {
+    "number": 35,
+    "id": "35_remider",
+    "title": "Edit reminder",
+    "path": "/reminders/:reminderId",
+    "component": "ReminderEditor",
+    "access": "user",
+    "layout": "app",
+    "example": "/reminders/new"
+  },
+  {
+    "number": 36,
+    "id": "36_Reminder Complete",
+    "title": "Reminder completed",
+    "path": "/reminders/complete",
+    "component": "ReminderComplete",
+    "access": "user",
+    "layout": "app"
+  },
+  {
+    "number": 37,
+    "id": "37_Chat",
+    "title": "Conversations",
+    "path": "/chat",
+    "component": "Chat",
+    "access": "user",
+    "layout": "app",
+    "nav": true
+  },
+  {
+    "number": 38,
+    "id": "38_Chat",
+    "title": "Conversation",
+    "path": "/chat/:conversationId",
+    "component": "Chat",
+    "access": "user",
+    "layout": "app",
+    "example": "/chat/mentor"
+  },
+  {
+    "number": 39,
+    "id": "39_Video Chat",
+    "title": "Video conversation",
+    "path": "/video-chat/:conversationId",
+    "component": "VideoChat",
+    "access": "user",
+    "layout": "app",
+    "example": "/video-chat/mentor"
+  },
+  {
+    "number": 40,
+    "id": "40_Profile",
+    "title": "Profile & preferences",
+    "path": "/profile",
+    "component": "Profile",
+    "variant": "self",
+    "access": "user",
+    "layout": "app",
+    "nav": true
+  },
+  {
+    "number": 41,
+    "id": "41_Friend Profile",
+    "title": "Public learner profile",
+    "path": "/users/:userId",
+    "component": "Profile",
+    "variant": "friend",
+    "access": "user",
+    "layout": "app",
+    "example": "/users/teacher"
+  }
+]
